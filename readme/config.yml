@@ -1,1 +1,2 @@
 installation: global
+binExample: ga-proxy --port 8000
