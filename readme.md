@@ -2,7 +2,7 @@
 
 
 <a href="https://actions-badge.atrox.dev/Jaid/ga-proxy/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fga-proxy%2Fbadge" alt="Build status"/></a> <a href="https://raw.githubusercontent.com/Jaid/ga-proxy/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/ga-proxy?style=flat-square" alt="License"/></a>  
-<a href="https://github.com/Jaid/ga-proxy/commits"><img src="https://img.shields.io/github/commits-since/Jaid/ga-proxy/v0.1.0?style=flat-square&logo=github" alt="Commits since v0.1.0"/></a> <a href="https://github.com/Jaid/ga-proxy/commits"><img src="https://img.shields.io/github/last-commit/Jaid/ga-proxy?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/ga-proxy/issues"><img src="https://img.shields.io/github/issues/Jaid/ga-proxy?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://github.com/Jaid/ga-proxy/commits"><img src="https://img.shields.io/github/commits-since/Jaid/ga-proxy/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/ga-proxy/commits"><img src="https://img.shields.io/github/last-commit/Jaid/ga-proxy?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/ga-proxy/issues"><img src="https://img.shields.io/github/issues/Jaid/ga-proxy?style=flat-square&logo=github" alt="Issues"/></a>  
 <a href="https://npmjs.com/package/ga-proxy"><img src="https://img.shields.io/npm/v/ga-proxy?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/ga-proxy/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ga-proxy?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ga-proxy"><img src="https://img.shields.io/npm/dm/ga-proxy?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **CLI app that forwards requests to google-analytics.com to avoid tracking blockers.**
@@ -21,11 +21,11 @@
 ## Installation
 <a href="https://npmjs.com/package/ga-proxy"><img src="https://img.shields.io/badge/npm-ga--proxy-C23039?style=flat-square&logo=npm" alt="ga-proxy on npm"/></a>
 ```bash
-npm install --global ga-proxy@^0.1.0
+npm install --global ga-proxy@^1.0.0
 ```
 <a href="https://yarnpkg.com/package/ga-proxy"><img src="https://img.shields.io/badge/Yarn-ga--proxy-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="ga-proxy on Yarn"/></a>
 ```bash
-yarn global add ga-proxy@^0.1.0
+yarn global add ga-proxy@^1.0.0
 ```
 
 
