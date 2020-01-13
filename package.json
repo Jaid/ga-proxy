@@ -41,5 +41,9 @@
   },
   "name": "ga-proxy",
   "description": "CLI app that forwards requests to google-analytics.com to avoid tracking blockers.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/ga-proxy"
+  }
 }
