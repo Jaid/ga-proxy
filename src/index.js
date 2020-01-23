@@ -1,40 +1,33 @@
 import got from "got"
 import Koa from "koa"
+import queryString from "query-string"
 import requestIp from "request-ip"
 import yargs from "yargs"
 
-/**
- * @param {import("koa").context}
- * @param {Object} args
- * @return {Promise<void>}
- */
-async function request(url, ip) {
-  try {
-    got.get(url, {
-      headers: {
-        "x-forwarded-for": ip,
-      },
-    })
-  } catch (error) {
-    console.error(error)
-  }
-}
-
-const job = async args => {
+const job = async argv => {
   const koa = new Koa
   koa.use(context => {
-    try {
-      context.assert(context.querystring.length > 0, 400)
-      const ip = requestIp.getClientIp(context.req)
-      const url = `${args.targetUrl}?${context.querystring}&uip=${encodeURIComponent(ip)}`
-      console.log(`🠺 ${url}`)
-      request(url, ip)
-      context.status = 200
-    } catch (error) {
-      console.error(error)
+    const ip = requestIp.getClientIp(context.req)
+    // Payload schema: https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
+    const analyticsPayload = {
+      uip: ip,
+      ...context.query,
     }
+    console.log(`${ip} [${Object.keys(analyticsPayload).join(", ")}]`)
+    context.assert(analyticsPayload.tid, 400, "No tid given")
+    const analyticsHeader = {}
+    if (context.header["User-Agent"]) {
+      analyticsHeader["User-Agent"] = context.header["User-Agent"]
+    }
+    got.post(argv.targetUrl, {
+      headers: analyticsHeader,
+      body: queryString.stringify(analyticsPayload),
+    }).catch(error => {
+      console.error(error)
+    })
+    context.status = 200
   })
-  koa.listen(args.port)
+  koa.listen(argv.port)
 }
 
 /**
