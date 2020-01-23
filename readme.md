@@ -1,21 +1,11 @@
 # Iron Maiden
 
 
-<a href="https://raw.githubusercontent.com/jaid/ga-proxy/master/license.txt"><img src="https://img.shields.io/github/license/jaid/ga-proxy?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor ga-proxy"/></a>
+<a href="https://raw.githubusercontent.com/jaid/ga-proxy/master/license.txt"><img src="https://img.shields.io/github/license/jaid/ga-proxy?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor ga-proxy"/></a>  
 <a href="https://actions-badge.atrox.dev/jaid/ga-proxy/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fga-proxy%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/ga-proxy/commits"><img src="https://img.shields.io/github/commits-since/jaid/ga-proxy/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/ga-proxy/commits"><img src="https://img.shields.io/github/last-commit/jaid/ga-proxy?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/ga-proxy/issues"><img src="https://img.shields.io/github/issues/jaid/ga-proxy?style=flat-square&logo=github" alt="Issues"/></a>  
 <a href="https://npmjs.com/package/ga-proxy"><img src="https://img.shields.io/npm/v/ga-proxy?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/ga-proxy/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ga-proxy?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ga-proxy"><img src="https://img.shields.io/npm/dm/ga-proxy?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **CLI app that forwards requests to google-analytics.com to avoid tracking blockers.**
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -30,6 +20,16 @@ npm install --global ga-proxy@^1.0.0
 ```bash
 yarn global add ga-proxy@^1.0.0
 ```
+
+
+
+
+
+
+
+
+
+
 
 
 
