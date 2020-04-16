@@ -46,5 +46,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/ga-proxy"
-  }
+  },
+  "homepage": "https://github.com/Jaid/ga-proxy",
+  "keywords": []
 }
