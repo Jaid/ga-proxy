@@ -4,7 +4,6 @@
   "version": "2.0.1",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.9.2",
     "got": "^10.7.0",
     "jaid-logger": "^2.2.0",
     "koa": "^2.11.0",
@@ -15,7 +14,7 @@
   "devDependencies": {
     "acorn": "^7.1.1",
     "babel-jest": "^25.3.0",
-    "babel-preset-jaid": "^7.3.6",
+    "babel-preset-jaid": "^8.0.0",
     "browserslist-config-jaid-node": "^2.2.2",
     "coffee": "^5.2.2",
     "delay": "^4.3.0",
