@@ -47,5 +47,13 @@
     "url": "https://github.com/jaid/ga-proxy"
   },
   "homepage": "https://github.com/Jaid/ga-proxy",
-  "keywords": []
+  "keywords": [
+    "analytics",
+    "backend",
+    "cli",
+    "google-analytics",
+    "proxy",
+    "server",
+    "tool"
+  ]
 }
