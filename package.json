@@ -55,5 +55,6 @@
     "proxy",
     "server",
     "tool"
-  ]
+  ],
+  "type": "module"
 }
